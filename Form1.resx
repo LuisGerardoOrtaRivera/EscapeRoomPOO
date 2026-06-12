@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblPregunta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblPregunta.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblPregunta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 307</value>
+  </data>
+  <data name="lblPregunta.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 0</value>
+  </data>
+  <data name="lblPregunta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="lblPregunta.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblPregunta.Text" xml:space="preserve">
+    <value>pregunta</value>
+  </data>
+  <data name="&gt;&gt;lblPregunta.Name" xml:space="preserve">
+    <value>lblPregunta</value>
+  </data>
+  <data name="&gt;&gt;lblPregunta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPregunta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPregunta.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblIntentos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIntentos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIntentos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 19</value>
+  </data>
+  <data name="lblIntentos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="lblIntentos.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblIntentos.Text" xml:space="preserve">
+    <value>intentos</value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.Name" xml:space="preserve">
+    <value>lblIntentos</value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblTiempo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTiempo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTiempo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 19</value>
+  </data>
+  <data name="lblTiempo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="lblTiempo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblTiempo.Text" xml:space="preserve">
+    <value>tiempo</value>
+  </data>
+  <data name="&gt;&gt;lblTiempo.Name" xml:space="preserve">
+    <value>lblTiempo</value>
+  </data>
+  <data name="&gt;&gt;lblTiempo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTiempo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTiempo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblPuntaje.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPuntaje.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPuntaje.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 19</value>
+  </data>
+  <data name="lblPuntaje.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="lblPuntaje.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPuntaje.Text" xml:space="preserve">
+    <value>puntaje</value>
+  </data>
+  <data name="&gt;&gt;lblPuntaje.Name" xml:space="preserve">
+    <value>lblPuntaje</value>
+  </data>
+  <data name="&gt;&gt;lblPuntaje.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPuntaje.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPuntaje.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnValidar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValidar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 511</value>
+  </data>
+  <data name="btnValidar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 35</value>
+  </data>
+  <data name="btnValidar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnValidar.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.Name" xml:space="preserve">
+    <value>btnValidar</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnGuardar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGuardar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 199</value>
+  </data>
+  <data name="btnGuardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 35</value>
+  </data>
+  <data name="btnGuardar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnGuardar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="&gt;&gt;btnGuardar.Name" xml:space="preserve">
+    <value>btnGuardar</value>
+  </data>
+  <data name="&gt;&gt;btnGuardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGuardar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGuardar.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnCargar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCargar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 158</value>
+  </data>
+  <data name="btnCargar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 35</value>
+  </data>
+  <data name="btnCargar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnCargar.Text" xml:space="preserve">
+    <value>Cargar</value>
+  </data>
+  <data name="&gt;&gt;btnCargar.Name" xml:space="preserve">
+    <value>btnCargar</value>
+  </data>
+  <data name="&gt;&gt;btnCargar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCargar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCargar.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="panelOpciones.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="rbOpcion4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbOpcion4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 12</value>
+  </data>
+  <data name="rbOpcion4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
+  </data>
+  <data name="rbOpcion4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="rbOpcion4.Text" xml:space="preserve">
+    <value>opcion4</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion4.Name" xml:space="preserve">
+    <value>rbOpcion4</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion4.Parent" xml:space="preserve">
+    <value>panelOpciones</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbOpcion1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbOpcion1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 12</value>
+  </data>
+  <data name="rbOpcion1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
+  </data>
+  <data name="rbOpcion1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rbOpcion1.Text" xml:space="preserve">
+    <value>opcion1</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion1.Name" xml:space="preserve">
+    <value>rbOpcion1</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion1.Parent" xml:space="preserve">
+    <value>panelOpciones</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbOpcion3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbOpcion3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 12</value>
+  </data>
+  <data name="rbOpcion3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
+  </data>
+  <data name="rbOpcion3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rbOpcion3.Text" xml:space="preserve">
+    <value>opcion3</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion3.Name" xml:space="preserve">
+    <value>rbOpcion3</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion3.Parent" xml:space="preserve">
+    <value>panelOpciones</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbOpcion2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbOpcion2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 12</value>
+  </data>
+  <data name="rbOpcion2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
+  </data>
+  <data name="rbOpcion2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rbOpcion2.Text" xml:space="preserve">
+    <value>opcion2</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion2.Name" xml:space="preserve">
+    <value>rbOpcion2</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion2.Parent" xml:space="preserve">
+    <value>panelOpciones</value>
+  </data>
+  <data name="&gt;&gt;rbOpcion2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelOpciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 421</value>
+  </data>
+  <data name="panelOpciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 73</value>
+  </data>
+  <data name="panelOpciones.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panelOpciones.Name" xml:space="preserve">
+    <value>panelOpciones</value>
+  </data>
+  <data name="&gt;&gt;panelOpciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelOpciones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelOpciones.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnPista.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPista.Location" type="System.Drawing.Point, System.Drawing">
+    <value>742, 524</value>
+  </data>
+  <data name="btnPista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 35</value>
+  </data>
+  <data name="btnPista.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnPista.Text" xml:space="preserve">
+    <value>Pista</value>
+  </data>
+  <data name="&gt;&gt;btnPista.Name" xml:space="preserve">
+    <value>btnPista</value>
+  </data>
+  <data name="&gt;&gt;btnPista.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPista.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPista.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbIdioma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>742, 19</value>
+  </data>
+  <data name="cmbIdioma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 28</value>
+  </data>
+  <data name="cmbIdioma.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbIdioma.Name" xml:space="preserve">
+    <value>cmbIdioma</value>
+  </data>
+  <data name="&gt;&gt;cmbIdioma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbIdioma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbIdioma.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="picAcertijo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picAcertijo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 59</value>
+  </data>
+  <data name="picAcertijo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 209</value>
+  </data>
+  <data name="picAcertijo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="picAcertijo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;picAcertijo.Name" xml:space="preserve">
+    <value>picAcertijo</value>
+  </data>
+  <data name="&gt;&gt;picAcertijo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picAcertijo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picAcertijo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picCuarto.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="picCuarto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCuarto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="picCuarto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 571</value>
+  </data>
+  <data name="picCuarto.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="picCuarto.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;picCuarto.Name" xml:space="preserve">
+    <value>picCuarto</value>
+  </data>
+  <data name="&gt;&gt;picCuarto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCuarto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picCuarto.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>923, 571</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
